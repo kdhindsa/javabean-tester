@@ -1,4 +1,4 @@
-package org.unikitty.testing;
+package org.quadanalytix.testing;
 
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
