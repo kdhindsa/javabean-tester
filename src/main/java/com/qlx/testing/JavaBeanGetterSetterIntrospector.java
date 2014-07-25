@@ -101,7 +101,7 @@ public abstract class JavaBeanGetterSetterIntrospector {
             failCustom("Unable to build an instance of class " + clazz.getName() + ", please add some code to the " + JavaBeanGetterSetterIntrospector.class.getName() + " class to do this.");
         }
 
-        return null; // for the compiler
+        return returnTestValue;
     }
 
     /**
